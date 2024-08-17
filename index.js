@@ -4,6 +4,7 @@ async function main() {
     // URL of the RPC for the Binance Smart Chain Testnet
     const provider = new ethers.JsonRpcProvider('https://data-seed-prebsc-1-s1.binance.org:8545'); // Create a JSON-RPC provider to connect to the BSC Testnet
 
+    // Address of the wallet to be queried
     const address = "0xd3f6e1df1c3037dcce7e60543e825a5ad2d08380"; // Define the address of the wallet to query
 
     try {
